@@ -1,0 +1,42 @@
+.main-grid{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid lightgreen;
+    padding: 20px;
+    margin: 5px;
+    align-items: left;
+    width: fit-content;
+    
+}
+
+.flexbox1{
+    display: flex;
+    gap: 50px;
+}
+
+.flexbox2{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.perform-button{
+    margin-left: 70px;
+    border: 3px solid darkblue;
+    background-color: lightblue;
+    height: 150px;
+    width: 200px;
+    font-size: 32px;
+}
+
+.perform-button:hover{
+    cursor: pointer;
+}
+
+.textbox{
+    border: 3px solid darkblue;
+    background-color: lightblue;
+    height: 30px;
+    font-size: 16px;
+}
